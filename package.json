@@ -1,0 +1,17 @@
+{
+  "name": "npm-workspaces-learning",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Casiano Rodriguez Leon <crguezl@ull.edu.es> (https://crguezl.github.io/)",
+  "license": "ISC",
+  "workspaces": [
+    "packages/a",
+    "packages/b",
+    "packages/c"
+  ]
+}
